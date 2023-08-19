@@ -1,2 +1,0 @@
-# Haseeb-Malik
-Portfolio Website
