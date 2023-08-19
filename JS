@@ -1,0 +1,16 @@
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Validate and handle contact form submission
+document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    // Your code to handle form submission here
+    // You can use AJAX or any other method to send the form data
+});
